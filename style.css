@@ -25,6 +25,7 @@ body {
     padding: 2em;
     background: #cecece;
     max-width: 1100px;
+    margin: 0 auto;
   }
   
   .archive {
