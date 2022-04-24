@@ -50,6 +50,13 @@ body {
       0 20px 20px rgba(0, 0, 0, 0.05);
   }
 
+@media (min-width: 1092px) {
+    .article:nth-child(20n + 2) { /* https://web-standards.ru/articles/nth-child/ */
+      grid-column: -3 / -1;
+      background: rgba(128, 0, 64, 0.8);
+    }
+    } 
+
    
 @media (max-width: 680px) {
     .archive {
@@ -73,7 +80,7 @@ body {
     background: rgba(128, 0, 64, 0.8);
   }
   
-  .article:nth-child(16n + 10) {
+  .article:nth-child(16n) {
     grid-column: 1 / -2;
     background: rgba(128, 0, 64, 0.8);
   }
